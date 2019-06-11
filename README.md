@@ -1,12 +1,27 @@
 # vue-project-template
 
-## Branches
+> A Vue.js Template
 
-- [vue/cli2]() template for vue/cli2.x.
-- [vue/cli3]() template for vue/cli3.x.
+## Build Setup
 
-## Functions
+``` bash
+# install dependencies
+npm install
 
-- [x] Complete code format and lint **with no requirements for user settings** by `eslint`, `eslint-plugin-vue`, `stylelint`, `htmlhint`, `prettier`, `husky` and `lint-staged`.
-- [ ] Expandable directory structure.
-- [ ] ...
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
