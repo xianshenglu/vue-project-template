@@ -38,7 +38,7 @@ module.exports = {
     'no-console': 'error',
     'no-extra-semi': 'error',
     'no-prototype-builtins': 'error',
-    // 'require-atomic-updates': 'error',
+    'require-atomic-updates': 'error',
     'array-callback-return': ['error', { allowImplicit: true }],
     'block-scoped-var': 'error',
     'guard-for-in': 'error',
@@ -49,14 +49,14 @@ module.exports = {
     'no-else-return': 'error',
     'no-case-declarations': 'error',
     'vars-on-top': 'error',
-    // 'require-unicode-regexp': 'error',
+    'require-unicode-regexp': 'error',
     'require-await': 'error',
     radix: 'error',
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
-    // 'prefer-named-capture-group': 'error',
+    'prefer-named-capture-group': 'error',
     'no-void': 'error',
     'no-useless-concat': 'error',
-    // 'no-useless-catch': 'error',
+    'no-useless-catch': 'error',
     'no-script-url': 'error',
     'no-return-await': 'error',
     'no-undef': 'error',
@@ -79,21 +79,21 @@ module.exports = {
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'require-yield': 'error',
-    'symbol-description': 'error'
+    'symbol-description': 'error',
     // eslint-plugin-vue
-    // 'vue/v-on-function-call': ['error', 'never'],
-    // 'vue/require-direct-export': 'error',
+    'vue/v-on-function-call': ['error', 'never'],
+    'vue/require-direct-export': 'error',
     // 'vue/no-empty-pattern': 'error',
-    // 'vue/eqeqeq': 'error',
-    // 'vue/comma-dangle': 'error'
+    'vue/eqeqeq': 'error',
+    'vue/comma-dangle': 'error',
     // too many violations
-    // 'vue/component-name-in-template-casing': [
-    //   'error',
-    //   'PascalCase' | 'kebab-case',
-    //   {
-    //     registeredComponentsOnly: true,
-    //     ignores: []
-    //   }
-    // ]
+    'vue/component-name-in-template-casing': [
+      'error',
+      'kebab-case',
+      {
+        registeredComponentsOnly: true,
+        ignores: []
+      }
+    ]
   }
 }
