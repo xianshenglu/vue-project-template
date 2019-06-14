@@ -9,7 +9,11 @@
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
-    "lint": "eslint --ext .js,.vue src test/unit",
+    "lint:es": "eslint --ext .js,.vue ./ --fix --cache --debug",
+    "lint:style": "stylelint \"**/*.{vue,htm,html,css,less,sass,scss,styl,stylus,md,js}\" --fix --cache",
+    "lint:html": "htmlhint **/*.{htm,html} --ignore */build/**, */dist/**, */node_modules/**",
+    "lint": "npm run lint:es && npm run lint:style && npm run lint:html",
+    "format": "prettier --write \"**/*.*\"",
     "build": "node build/build.js"
   },
   "dependencies": {
