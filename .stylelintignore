@@ -1,2 +1,4 @@
+# Dependecies
 node_modules/
+# Production files
 /dist/

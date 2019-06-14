@@ -1,5 +1,4 @@
-/build/
-/config/
+# Production files
 /dist/
+# Enable root config files
 !/*.js
-/test/unit/coverage/
