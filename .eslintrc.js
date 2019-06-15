@@ -89,7 +89,7 @@ module.exports = {
     // too many violations
     'vue/component-name-in-template-casing': [
       'error',
-      'kebab-case',
+      'PascalCase',
       {
         registeredComponentsOnly: true,
         ignores: []
