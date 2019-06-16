@@ -53,7 +53,6 @@ module.exports = {
     'require-await': 'error',
     radix: 'error',
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
-    'prefer-named-capture-group': 'error',
     'no-void': 'error',
     'no-useless-concat': 'error',
     'no-useless-catch': 'error',
