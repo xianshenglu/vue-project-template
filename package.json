@@ -12,8 +12,9 @@
     "lint:es": "eslint --ext .js,.vue ./ --fix --cache --debug",
     "lint:style": "stylelint \"**/*.{vue,htm,html,css,less,sass,scss,styl,stylus,md,js}\" --fix --cache",
     "lint:html": "htmlhint **/*.{htm,html} --ignore */build/**, */dist/**, */node_modules/**",
-    "lint": "npm run lint:es && npm run lint:style && npm run lint:html",
+    "lint": "npm run lint:es || npm run lint:style || npm run lint:html",
     "format": "prettier --write \"**/*.*\"",
+    "lint-format": "npm run lint || npm run format",
     "build": "node build/build.js"
   },
   "dependencies": {
